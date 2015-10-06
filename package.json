@@ -1,0 +1,27 @@
+{
+  "name": "fusion2",
+  "version": "1.0.0",
+  "description": "Fusion clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "foreman run babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtotoole/fusion2.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtotoole/fusion2/issues"
+  },
+  "homepage": "https://github.com/jtotoole/fusion2#readme",
+  "dependencies": {
+    "artsy-xapp": "^1.0.4",
+    "async": "^1.4.2",
+    "babel": "^5.8.23",
+    "express": "^4.13.3",
+    "superagent": "^1.4.0"
+  }
+}
